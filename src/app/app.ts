@@ -6,10 +6,10 @@ import { Header } from './components/header/header';
 import { Navbar } from './components/navbar/navbar';
 import { Notifications } from './components/notifications/notifications';
 import { Profile } from './components/profile/profile';
-
+import { ConferenceList } from './components/conference-list/conference-list'
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,Footer,FriendsList,Header,Navbar,Notifications,Profile
+  imports: [RouterOutlet,Footer,FriendsList,Header,Navbar,Notifications,Profile,ConferenceList
   ],
   templateUrl: './app.html',
   styleUrl: './app.css'
